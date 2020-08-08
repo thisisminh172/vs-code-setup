@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "php.validate.executablePath": "C:\\php-7.3.20\\php.exe",
+    //phpfmt
+    "phpfmt.php_bin": "C:\\php-7.3.20\\php.exe",
+    "phpfmt.passes": [
+        "AlignPHPCode",
+        "AlignTypeHint",
+        "AddMissingParentheses",
+        "ConvertOpenTagWithEcho",
+        "DocBlockToComment",
+        "IndentTernaryConditions",
+        "JoinToImplode",
+        "PSR2KeywordsLowerCase",
+        "PSR2LnAfterNamespace",
+        "PSR2CurlyOpenNextLine",
+        "PSR2ModifierVisibilityStaticOrder",
+        "PSR2SingleEmptyLineAndStripClosingTag",
+        "ReindentSwitchBlocks",
+        "RemoveUseLeadingSlash",
+        "StripExtraCommaInArray",
+        "SpaceBetweenMethods",
+    ],
+    "phpfmt.exclude": [
+        "ReindentComments",
+        "StripNewlineWithinClassBody"
+    ],
+    "phpfmt.psr2": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Dracula At Night",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true,
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (Eex)"
+    ],
+    
+
+
+}
